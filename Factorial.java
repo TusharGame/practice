@@ -10,6 +10,7 @@ public void findFactorial(int no) {
 	for(int i=1; i<=no;i++) {
 		fact=fact*i;
 	}
-	System.out.print("fact of"+no+"is="+fact);
+	System.out.print(fact);
+//change code
 }
 }
