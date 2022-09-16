@@ -1,7 +1,15 @@
 package method;
 
+import java.util.scanner;
+
 public class Factorial {
 public static void main(String []args) {
+
+Scanner sc=new Scanner(System.in);
+System.out.println("Enter you number : ");
+
+int no=sc.nextIn();
+
 	Factorial f1=new Factorial();
 	f1.findFactorial(5);
 }
